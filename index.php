@@ -16,7 +16,8 @@
     </div>
     <br>
     <div>
-        <p>This is my first course with the extension school. I just want
+        <p>Hi I'm Rachel Dalby, I'm from Michigan. I just recently moved to New Hampshire and started my new job with
+            Harvard School fo public health. This is my first course with the extension school. I just want
         a refresher and that is why I'm taking this course.</p>
     </div>
    <br>
