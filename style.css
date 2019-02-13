@@ -1,4 +1,11 @@
-body {background-color: teal;}
+body {
+    background-image: url("Images/background2.png");
+    background-color: teal;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 h1   {color: white;}
 h2	 {color: white;}
 p    {color: white;}
