@@ -25,6 +25,7 @@
     <div>
     <p>
         <?php
+        //this portion will create an array filled with random quotes that can be referenced later
             $storedPhrases = array(
                 'Simplicity is the ultimate sophistication. -Leonardo Da Vinci',
                 'Art is never finished, only abandoned. -Leonardo Da Vinci',
@@ -33,6 +34,12 @@
                 'Imagination is more important than knowledge. -Albert Einstein',
                 'No problem can be solved from the same level of consciousness that created it. -Albert Einstein',
             );
+            /*This only executes on page load, but it uses the built in random function rand to get a random
+            *number from 0 to 1 less than the total count on the array. If it didn't it would reference either a
+            *non existent part of the array and throw an error or never get the first record if it didn't start at 0.
+            *Once this has the random number it uses that number to generate the quote from the array and sends it to
+            *the screen.
+            */
             echo $storedPhrases[rand(0,count($storedPhrases)-1)];
 
         ?>
